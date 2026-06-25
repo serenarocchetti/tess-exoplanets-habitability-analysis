@@ -1,6 +1,9 @@
 # Statistical Analysis of Exoplanet Habitability (TESS Mission)
 ### A Machine Learning Approach Using the ExoFOP-TESS Catalog
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-blue.svg)](https://scikit-learn.org/)
+[![Statsmodels](https://img.shields.io/badge/Statistical%20Modeling-Statsmodels-red.svg)](https://www.statsmodels.org/)
 
 ## 📌 Project Overview
 
@@ -32,11 +35,11 @@ The study is based on real astrophysical data from the **ExoFOP-TESS catalog**.
 - **Mean Density (ρ)** — derived from mass-radius relationships
 
 
-## 🤖 Machine Learning Model
+## 🤖 Analytical Model
 
-- Logistic Regression classifier
-- Probability estimation of planetary habitability
-- Feature-based classification pipeline
+- Logistic Regression used as a statistical classification tool
+- Feature-based analysis of planetary characteristics
+- Exploration of relationships between physical variables and habitability indicators
 
 
 ## 📈 Model Evaluation
@@ -60,12 +63,20 @@ The study is based on real astrophysical data from the **ExoFOP-TESS catalog**.
 - `README.md` → project documentation
 
 
-## 📊 Key Insight
+## 📊 Key Impact
 
-Machine learning techniques applied to astrophysical datasets enable efficient filtering of exoplanet candidates, supporting future observational prioritization for missions such as **JWST (James Webb Space Telescope)**.
-
+- Analyzed exoplanet populations using statistical indicators
+- Developed a reproducible data analysis pipeline for astrophysical datasets
+- Supported prioritization of exoplanet candidates for further scientific investigation
 
 ## 🚀 Author
 
 Bachelor’s Degree in Statistics & Big Data  
 Focus: Data Science, Statistical Modeling, Astrophysical Data Analysis
+
+
+## ▶️ How to run
+
+```bash
+pip install -r requirements.txt
+python regressione_logistica.py
